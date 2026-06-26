@@ -5,7 +5,6 @@ import cr.ac.ucr.paraíso.proyectoFinal.model.Character;
 import java.util.Scanner;
 
 public class Game {
-import Scanner;
 
     public class Juego {
 
