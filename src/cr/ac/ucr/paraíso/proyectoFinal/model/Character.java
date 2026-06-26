@@ -1,6 +1,20 @@
 package cr.ac.ucr.paraíso.proyectoFinal.model;
 
+import cr.ac.ucr.paraíso.proyectoFinal.Enemy;
+
 public class Character {
+    public Character(String nombre, int vidaMax, int fuerzaAtaque, int posX, int posY) {
+    }
+
+    public static void atack(Enemy enemy) {
+    }
+
+    public boolean estaVivo() {
+    }
+
+    public String getVidaActual() {
+    }
+
     public class Personaje {
         private String nombre;
         private int vidaMax;
@@ -29,7 +43,7 @@ public class Character {
             }
         }
 
-        public void atacar(Personaje objetivo) {
+        public void atack(Enemy.Enemigo objetivo) {
             if (objetivo != null && this.estaVivo()) {
                 objetivo.recibirDano(this.fuerzaAtaque);
             }
@@ -55,3 +69,4 @@ public class Character {
         public void setPosY(int posY) { this.posY = posY; }
     }
 }
+
