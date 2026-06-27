@@ -9,6 +9,12 @@ public class Enemy {
     public void atack(Character jugador) {
     }
 
+    public int getPosY() {
+    }
+
+    public int getPosX() {
+    }
+
     public static class Enemigo extends Character {
 
         public Enemigo(String nombre, int vidaMax, int fuerzaAtaque, int posX, int posY) {
