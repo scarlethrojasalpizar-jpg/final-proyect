@@ -111,11 +111,7 @@ public class Character {
         }
 
 
-        public int getPosY () {
-            return 0;
-        }
-
-        public int getPosX () {
+        int getPosY ;{
             return 0;
         }
     }

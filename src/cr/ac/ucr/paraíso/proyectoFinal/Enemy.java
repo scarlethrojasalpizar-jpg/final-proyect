@@ -31,6 +31,7 @@ public class Enemy {
         }
 
         public boolean estaVivo() {
+            return 0;
         }
 
         public String getVidaActual() {

@@ -43,7 +43,7 @@ public class Game {
                 }
             }
 
-            if (!enemy.estaVivo()) {
+            if (!Enemy.estaVivo()) {
                 System.out.println("\n¡Ganaste!");
             }
 
