@@ -111,11 +111,24 @@ public class Character {
         }
 
 
-    public int getPosY() {
-        return 0;
+        public int getPosY () {
+            return 0;
+        }
+
+        public int getPosX () {
+            return 0;
+        }
+    }
+
+    public String getVidaActual() {
+        return "";
     }
 
     public int getPosX() {
+        return 0;
+    }
+
+    public int getPosY() {
         return 0;
     }
 }
