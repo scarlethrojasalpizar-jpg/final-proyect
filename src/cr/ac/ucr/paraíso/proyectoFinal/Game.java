@@ -13,14 +13,14 @@ public class Game {
             Scanner teclado = new Scanner(System.in);
 
                 Character jugador = new Character("Caballero", 100, 20, 0, 0);
-            Enemy enemy = new Enemy.Enemy ("Orco", 80, 15, 5, 5);
+            Enemy enemy = new Enemy.enemy("Orco", 80, 15, 5, 5);
 
             System.out.println("=== COMIENZA EL JUEGO ===");
 
-            while (jugador.estaVivo() && enemy.estaVivo()) {
+            while (jugador.estaVivo())enemy.estaVivo(); {
 
                 System.out.println("\nVida del jugador: " + jugador.getVidaActual());
-                System.out.println("Vida del enemigo: " + ((Enemy.Enemy) enemy).getVidaActual());
+                System.out.println("Vida del enemigo: " + ((Enemy.enemy) enemy).getVidaActual());
 
                 System.out.println("\n1. Atacar");
                 System.out.println("2. Salir");
@@ -39,7 +39,7 @@ public class Game {
 
                 } else {
                     System.out.println("Juego terminado.");
-                    break;
+
                 }
             }
 

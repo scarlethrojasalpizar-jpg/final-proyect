@@ -9,7 +9,7 @@ public class Character {
     public static void atack(Enemy enemy) {
     }
 
-    public boolean estaVivo() {
+    public int estaVivo() {
 
 
         String getVidaActual;
